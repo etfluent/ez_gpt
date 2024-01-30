@@ -1,9 +1,8 @@
 import sys
-
 import requests
 
 
-def gpt_request(gpt_token, gpt_text, gpt_temp=0.1):
+def gpt_request(gpt_token: str, gpt_text: str, gpt_temp: float = 0.1) -> None:
     gpt_api_url = 'https://api.openai.com/v1/chat/completions'
     gpt_headers = {
         'Content-Type': 'application/json',
