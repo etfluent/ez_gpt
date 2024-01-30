@@ -14,7 +14,7 @@ python main.py <BEARER_TOKEN> '<YOUR_TEXT>'
 python main.py <BEARER_TOKEN> '<YOUR_TEXT>' <CUSTOM_TEMPERATURE>
 ```
 ### Docker
-Dockerfile is provided.
+Dockerfile is provided if you prefer to run via Docker.
 ### Requires the following packages:
 
 ```
